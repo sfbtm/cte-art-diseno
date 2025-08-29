@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --color-acento: #fe9798;
+    --color-secundario: #4d4c5c;
+    --fuente-ubuntu: 'Ubuntu'
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--fuente-ubuntu)
+}
+
+/* Seccion de encabezado */
+
+.header{
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    border-bottom: 1px solid var(--color-acento);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 10rem;
+}
+
+/* Encabezado: logotipo */
+
+.header__brand{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header__brand__logo{
+    height: 70px;
+    width: 70px;
+    background-image: url(src/logo-png.png);
+    background-size: cover
+}
+
+.header__brand__nombre{
+    font-size: 1.5rem;
+}
+
+/* Encabezado: navegacion */
+
+.header__nav__lista{
+    display: flex;
+    gap: 2rem;
+}
+
+.header__nav__lista__item, .header__nav__lista__item a{
+    list-style: none;
+    color: #4d4c5c;
+    text-decoration: none;
+
+}
+
+/* Main */
+/* Seccion principal */
+
+.principal{
+    height: calc(100vh - 5rem);
+    width: 100%;
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.2) 100%), url(src/banner.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.principal__titulo{
+    font-size: 5rem;
+    white-space: pre-wrap;
+    width: 50rem;
+    color: #fff;
+}
+
+.principal__brand{
+    color: #fff;
+    font-weight: 200;
+
+}
+
+/* Sección de galería de cursos */
+
+.galeria{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.galeria__titulo{
+    color: var(--color-secundario);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.galeria__contenedor{
+    padding: 0 10rem;
+}
+
+/* Cards */
+
+.galeria__contenedor__card__img{
+    background-image: url(src/sample1.jpeg);
+    width: 100%;
+    height: 15rem;
+    background-size: cover;
+}
+.galeria__contenedor__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 25rem;
+    background-color: transparent;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.galeria__contenedor__card__texto{
+    width: 100%;
+}
+
+.galeria__contenedor__card__titulo{
+    font-size: 1.5rem;
+}
+
+.galeria__contenedor__card__boton{
+    border: none;
+    padding: 0.5em;
+    background-color: var(--color-acento);
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    height: 5rem;
+    border: 1px solid var(--color-acento);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__texto{
+    color: var(--color-secundario);
+}
