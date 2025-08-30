@@ -1,0 +1,143 @@
+[
+{
+  "id": 1,
+  "nombre": "🎨✨ Curso de Arte para Niños en Etapa Preesquemática (4 a 6 años) ✨🎨",
+  "precio": 1000,
+  "secciones": [
+    {
+      "titulo": "Introducción",
+      "contenido": "La infancia está llena de descubrimientos, y entre los 4 y 7 años los niños atraviesan la etapa preesquemática, un momento maravilloso en el que sus dibujos dejan de ser simples garabatos para convertirse en representaciones llenas de intención, color y creatividad. En esta etapa, aparecen los primeros “monigotes”, las casas, los soles y las escenas de su vida cotidiana, reflejando cómo entienden el mundo y cómo se sienten en él."
+    },
+    {
+      "titulo": "¿Qué haremos en la clase?",
+      "contenido": [
+        "Exploración de formas y figuras: ayudaremos a los niños a transformar sus ideas en dibujos más definidos.",
+        "Expresión de emociones: cada clase será un espacio para que expresen sus sentimientos mediante colores y trazos.",
+        "Composición en la hoja: aprenderán a organizar sus dibujos, colocando elementos como el sol, la casa, los árboles o las personas en diferentes lugares.",
+        "Juego y arte: la clase se desarrollará con dinámicas lúdicas, canciones y cuentos que inspiren sus creaciones."
+      ]
+    },
+    {
+      "titulo": "Materiales que utilizaremos",
+      "contenido": [
+        "Crayolas y lápices de colores",
+        "Marcadores lavables",
+        "Pinturas al frío y témperas",
+        "Pinceles y esponjas",
+        "Hojas blancas, cartulinas y papel craft",
+        "Tijeras de punta roma, pegante y materiales reciclados para pequeñas creaciones",
+        "Plastilina y otros recursos de modelado"
+      ]
+    },
+    {
+      "titulo": "Beneficios para tu hijo",
+      "contenido": [
+        "Desarrollo de la motricidad fina y la coordinación mano-ojo",
+        "Estímulo de la creatividad, imaginación y pensamiento simbólico",
+        "Refuerzo de la autoestima al ver sus ideas convertidas en obras de arte",
+        "Fomento de la expresión emocional y comunicación no verbal",
+        "Un espacio seguro y alegre donde aprenden jugando"
+      ]
+    },
+    {
+      "titulo": "Mensaje final",
+      "contenido": "En este curso, cada niño podrá expresarse sin miedo a equivocarse, porque aquí lo importante no es que el dibujo “se parezca” a la realidad, sino que refleje su mundo interior. Queremos que tus hijos disfruten, creen y descubran que el arte es una forma de crecer felices."
+    }
+  ]
+},
+
+{
+  "id": 2,
+  "titulo": "🎨✨ Curso de Arte para Niños en Etapa Esquemática (7 a 9 años) ✨🎨",
+  "secciones": [
+    {
+      "titulo": "Introducción",
+      "contenido": "Entre los 7 y 9 años, los niños atraviesan la etapa esquemática, un momento clave en el desarrollo gráfico donde sus dibujos evolucionan hacia formas más organizadas y reconocibles. En esta fase, los niños ya no solo dibujan lo que sienten, sino que buscan representar la realidad con más detalle y estructura: aparecen escenas completas con personas, animales, paisajes, casas, y una clara separación entre el cielo y el suelo."
+    },
+    {
+      "titulo": "🌟 ¿Qué haremos en la clase?",
+      "contenido": [
+        "Construcción de escenas: aprenderán a dibujar historias con varios personajes y elementos en relación.",
+        "Profundización en el uso del color: exploraremos la combinación de colores más cercana a la realidad y también creativa.",
+        "Uso del espacio y proporción: trabajaremos en la organización de los elementos en la hoja, diferenciando el cielo, la tierra y los objetos.",
+        "Expresión personal: cada alumno tendrá la libertad de darle su propio estilo a lo que dibuja, valorando tanto la técnica como la creatividad.",
+        "Proyectos artísticos guiados: crearemos murales, historietas sencillas y obras colectivas para reforzar la cooperación y la imaginación."
+      ]
+    },
+    {
+      "titulo": "🎒 Materiales que utilizaremos",
+      "contenido": [
+        "Lápices de colores, crayolas y marcadores.",
+        "Pinturas acrílicas y témperas.",
+        "Pinceles de diferentes grosores y esponjas.",
+        "Hojas blancas, cartulina y papel kraft.",
+        "Regla y plantillas para explorar líneas rectas y figuras geométricas.",
+        "Plastilina, arcilla o masa moldeable para introducir volumen en sus creaciones.",
+        "Revistas y papeles reciclados para collages."
+      ]
+    },
+    {
+      "titulo": "🌈 Beneficios para tu hijo",
+      "contenido": [
+        "Fortalecimiento de la observación y atención al detalle.",
+        "Desarrollo de la organización espacial y proporción en el dibujo.",
+        "Estímulo de la creatividad y la imaginación narrativa.",
+        "Incremento de la seguridad y autoestima al ver sus avances artísticos.",
+        "Mejora de la motricidad fina y coordinación ojo-mano a través de diversas técnicas."
+      ]
+    },
+    {
+      "titulo": "💛 Conclusión",
+      "contenido": "En esta etapa, el niño empieza a contar su mundo con dibujos más cercanos a la realidad. Nuestro curso busca acompañar ese proceso, enseñando técnicas y brindando la libertad de crear, para que el arte se convierta en una herramienta de expresión, aprendizaje y felicidad."
+    }
+  ],
+  "precio": 1200
+},
+    {
+  "id": 3,
+  "titulo": "🎨✨ Curso de Arte para Niños en la Etapa del Realismo (9 a 12 años) ✨🎨",
+  "secciones": [
+    {
+      "titulo": "Introducción",
+      "contenido": "Entre los 9 y 12 años, los niños ingresan a la etapa del realismo, un momento fascinante donde sus dibujos evolucionan hacia formas más detalladas, proporcionadas y cercanas a la realidad. Ya no se conforman con “monigotes” o esquemas simples: ahora buscan que sus creaciones se parezcan a lo que ven, agregando detalles, movimiento y expresiones. Sin embargo, también es una etapa delicada: los niños comienzan a ser críticos con su propio trabajo, y si sienten que “no les queda bien”, pueden frustrarse y abandonar el dibujo. Por eso, este curso está diseñado para acompañarlos con paciencia, motivación y técnicas que fortalezcan su confianza artística."
+    },
+    {
+      "titulo": "🌟 ¿Qué haremos en la clase?",
+      "contenido": [
+        "Proporciones y figura humana: trabajaremos en la representación del cuerpo y sus movimientos.",
+        "Detalles y realismo: aprenderán a añadir ropa, expresiones faciales, cabello y accesorios.",
+        "Paisajes y escenarios: exploraremos cómo representar cielos, suelos, montañas, edificios y objetos con más realismo.",
+        "Color y sombreado: técnicas para dar volumen y profundidad a sus dibujos.",
+        "Perspectiva básica: entenderán cómo mostrar objetos más cerca o más lejos en el espacio.",
+        "Proyectos creativos: elaboración de cómics, ilustraciones y retratos sencillos que fortalezcan su identidad artística."
+      ]
+    },
+    {
+      "titulo": "🎒 Materiales que utilizaremos",
+      "contenido": [
+        "Lápices de grafito de diferentes durezas (HB, 2B, 6B).",
+        "Borradores y difuminos para sombreado.",
+        "Colores, marcadores y acuarelas.",
+        "Hojas blancas, cartulinas y papel especial para dibujo.",
+        "Regla, escuadra y compás para trabajar proporción y perspectiva.",
+        "Materiales mixtos para experimentar (revistas para collage, tinta, carboncillo)."
+      ]
+    },
+    {
+      "titulo": "🌈 Beneficios para tu hijo",
+      "contenido": [
+        "Desarrollo de la observación y la atención al detalle.",
+        "Refuerzo de la autoestima al aprender técnicas que mejoran sus resultados.",
+        "Estímulo de la creatividad y la capacidad de narrar historias a través del arte.",
+        "Incremento de la paciencia, concentración y disciplina.",
+        "Un espacio de expresión emocional donde aprenden que cada dibujo refleja su manera única de ver el mundo."
+      ]
+    },
+    {
+      "titulo": "💛 Conclusión",
+      "contenido": "En este curso, acompañamos a cada niño en su proceso artístico, ayudándolo a superar la frustración y a descubrir que el realismo no significa perfección, sino aprender a mirar, sentir y crear con libertad."
+    }
+  ],
+  "precio": 1500
+}
+]

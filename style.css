@@ -27,6 +27,7 @@
     gap: 10rem;
 }
 
+
 /* Encabezado: logotipo */
 
 .header__brand{
@@ -57,7 +58,13 @@
     list-style: none;
     color: #4d4c5c;
     text-decoration: none;
+    
+}
 
+/* Aplicando display: none al icono de hamburguesa */
+/* Este se reactiva en moviles */
+.header__nav__hamburguesa{
+    display: none;
 }
 
 /* Main */
@@ -66,11 +73,12 @@
 .principal{
     height: calc(100vh - 5rem);
     width: 100%;
-    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.2) 100%), url(src/banner.png);
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.2) 100%), url(src/banner.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 3rem;
+    background-size: cover;
 }
 
 .principal__titulo{
@@ -103,7 +111,10 @@
 }
 
 .galeria__contenedor{
-    padding: 0 10rem;
+    padding: 0 5rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 /* Cards */
@@ -124,6 +135,7 @@
     background-color: transparent;
     gap: 1rem;
     padding: 1rem;
+    overflow: hidden;
 }
 
 .galeria__contenedor__card__texto{
@@ -158,4 +170,84 @@
 
 .footer__texto{
     color: var(--color-secundario);
+}
+
+/* breakpoints */
+@media (max-width: 992px) {
+    
+    .principal__titulo{
+        font-size: 4rem;
+        width: 30rem;
+    }
+}
+
+@media (max-width: 767px){
+    .header__brand__nombre, .header__nav__lista{
+        display: none;
+    }
+
+    .header{
+        justify-content: center;
+        gap: 0;
+        position: relative;
+    }
+
+    /* Centrando texto pricipal */
+    .principal{
+        align-items: center;
+    }
+    .principal__titulo{
+        width: 30rem;
+        text-align: center;
+    }
+
+    /* Añadiendo menu hamburguesa */
+
+    .header__nav__hamburguesa{
+        display: block;
+        height: 50px;
+        width: 50px;
+        background-image: url(src/hamburguesa.png);
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+
+    .galeria__contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Redimensionar las tarjetas */
+
+    .galeria__contenedor__card{
+        width: 15rem;
+        height: 20rem;
+    }
+
+    .galeria__contenedor__card__titulo{
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (max-width: 480px){
+    .principal{
+        background-size:cover;
+        padding: 0
+    }
+
+    .galeria__titulo{
+        font-size: 1.5rem;
+    }
+
+    .principal__titulo{
+        width: auto;
+        font-size: 2.5rem;
+    }
+
 }
