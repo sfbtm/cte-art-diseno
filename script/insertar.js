@@ -29,7 +29,7 @@ const renderizarCursos = cursos => {
 
         //Llenar la informacion de cada objeto
         titulo.innerHTML = curso.titulo;
-        titulo.href = `curso.html?id=${curso.id}`
+        titulo.href = `pages/curso.html?id=${curso.id}`
         precio.innerHTML = `$${curso.precio}`;
         boton.innerHTML = "Comprar";
         img.style.backgroundImage = `url(/../src/curso-${curso.id}/1.jpeg)`
