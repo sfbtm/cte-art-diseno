@@ -43,7 +43,8 @@
       "titulo": "Mensaje final",
       "contenido": "En este curso, cada niño podrá expresarse sin miedo a equivocarse, porque aquí lo importante no es que el dibujo “se parezca” a la realidad, sino que refleje su mundo interior. Queremos que tus hijos disfruten, creen y descubran que el arte es una forma de crecer felices."
     }
-  ]
+  ],
+  "imagenes": 5
 },
 
 {
@@ -91,7 +92,8 @@
       "contenido": "En esta etapa, el niño empieza a contar su mundo con dibujos más cercanos a la realidad. Nuestro curso busca acompañar ese proceso, enseñando técnicas y brindando la libertad de crear, para que el arte se convierta en una herramienta de expresión, aprendizaje y felicidad."
     }
   ],
-  "precio": 1200
+  "precio": 1200,
+  "imagenes":6
 },
     {
   "id": 3,
@@ -138,6 +140,7 @@
       "contenido": "En este curso, acompañamos a cada niño en su proceso artístico, ayudándolo a superar la frustración y a descubrir que el realismo no significa perfección, sino aprender a mirar, sentir y crear con libertad."
     }
   ],
-  "precio": 1500
+  "precio": 1500,
+  "imagenes": 9
 }
 ]
