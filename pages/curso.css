@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --color-acento: #fe9798;
+    --color-secundario: #4d4c5c;
+    --fuente-ubuntu: 'Ubuntu'
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--fuente-ubuntu)
+}
+
+/* Seccion de encabezado */
+
+.header{
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    border-bottom: 1px solid var(--color-acento);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 10rem;
+}
+
+
+/* Encabezado: logotipo */
+
+.header__brand{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header__brand__logo{
+    height: 70px;
+    width: 70px;
+    background-image: url(../src/logo-png.png);
+    background-size: cover
+}
+
+.header__brand__nombre{
+    font-size: 1.5rem;
+}
+
+/* Encabezado: navegacion */
+
+.header__nav__lista{
+    display: flex;
+    gap: 2rem;
+}
+
+.header__nav__lista__item, .header__nav__lista__item a{
+    list-style: none;
+    color: #4d4c5c;
+    text-decoration: none;
+    
+}
+
+/* Aplicando display: none al icono de hamburguesa */
+/* Este se reactiva en moviles */
+.header__nav__hamburguesa{
+    display: none;
+}

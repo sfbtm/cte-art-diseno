@@ -39,7 +39,7 @@
 .header__brand__logo{
     height: 70px;
     width: 70px;
-    background-image: url(src/logo-png.png);
+    background-image: url(../src/logo-png.png);
     background-size: cover
 }
 
@@ -73,7 +73,7 @@
 .principal{
     height: calc(100vh - 5rem);
     width: 100%;
-    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.2) 100%), url(src/banner.jpg);
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.2) 100%), url(../src/banner.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,7 +121,7 @@
 /* Cards */
 
 .galeria__contenedor__card__img{
-    background-image: url(src/sample1.jpeg);
+    background-image: url(../src/sample1.jpeg);
     width: 100%;
     height: 15rem;
     background-size: cover;
@@ -136,17 +136,31 @@
     background-color: transparent;
     gap: 1rem;
     padding: 1rem;
+    transition: 0.5s;
+}
+
+.galeria__contenedor__card:hover{
+    background-color: #eee;
+    border-radius: 20px;
 }
 
 .galeria__contenedor__card__texto{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     width: 100%;
 }
 
 .galeria__contenedor__card__titulo{
     font-size: 1rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    color: #000;
+    text-decoration: none;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.galeria__contenedor__card__titulo:hover{
+    text-decoration: underline
 }
 
 .galeria__contenedor__card__boton{

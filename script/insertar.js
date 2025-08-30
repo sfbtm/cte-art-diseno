@@ -5,8 +5,9 @@ fetch("/../data/data.json")
     renderizarCursos(data);
   });
 
+const contenedor = document.querySelector(".galeria__contenedor")
+
 const renderizarCursos = cursos => {
-    const contenedor = document.querySelector(".galeria__contenedor")
     console.log(contenedor)
 
     cursos.forEach(curso => {
@@ -14,7 +15,7 @@ const renderizarCursos = cursos => {
         const card = document.createElement("div");
         const img = document.createElement("div");
         const contenedorTexto = document.createElement("div");
-        const titulo = document.createElement("p");
+        const titulo = document.createElement("a");
         const precio = document.createElement("p");
         const boton = document.createElement("button");
 
@@ -28,6 +29,7 @@ const renderizarCursos = cursos => {
 
         //Llenar la informacion de cada objeto
         titulo.innerHTML = curso.titulo;
+        titulo.href = `curso.html?id=${curso.id}`
         precio.innerHTML = `$${curso.precio}`;
         boton.innerHTML = "Comprar";
         img.style.backgroundImage = `url(/../src/curso-${curso.id}/1.jpeg)`
@@ -39,6 +41,12 @@ const renderizarCursos = cursos => {
         contenedorTexto.appendChild(titulo);
         contenedorTexto.appendChild(precio);
         card.appendChild(boton);
-    })
-    
+
+        //Añadir dataset a card
+        titulo.dataset.id = `${curso.id}`
+    })   
 }
+
+contenedor.addEventListener("click", (event) => {
+    console.log(event.target)
+})
