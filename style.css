@@ -115,6 +115,7 @@
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Cards */
@@ -135,7 +136,6 @@
     background-color: transparent;
     gap: 1rem;
     padding: 1rem;
-    overflow: hidden;
 }
 
 .galeria__contenedor__card__texto{
@@ -143,7 +143,10 @@
 }
 
 .galeria__contenedor__card__titulo{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .galeria__contenedor__card__boton{
