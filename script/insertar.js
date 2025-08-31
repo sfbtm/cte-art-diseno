@@ -32,7 +32,7 @@ const renderizarCursos = cursos => {
         titulo.href = `pages/curso.html?id=${curso.id}`
         precio.innerHTML = `$${curso.precio}`;
         boton.innerHTML = "Comprar";
-        img.style.backgroundImage = `url(/../src/curso-${curso.id}/1.jpeg)`
+        img.style.backgroundImage = `url(./src/curso-${curso.id}/1.jpeg)`
 
         //Emparentar objetos
         contenedor.appendChild(card);
